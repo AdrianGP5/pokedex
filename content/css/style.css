@@ -1,0 +1,108 @@
+h1{
+    color: rgb(218, 18, 18);
+}
+
+label{
+    white-space: pre-wrap;
+}
+
+h4{
+    color: rgb(4, 228, 4);
+}
+
+body{
+    background-color: white;
+}
+
+#poke{
+    position: absolute;
+    background-image: url("../images/pokedex_bg.jpg");
+    background-size: contain;
+    height: 690px;
+    width: 990px;
+}
+
+#contenedorFoto{
+    position: relative;
+    background-color: aqua;
+    height: 203px;
+    width: 300px;
+    margin-top: 223px;
+    margin-left: 92px;
+}
+
+#pokebola{
+    margin-top: 5px;
+    margin-left: 55px;
+    width: 65%;
+}
+
+#contenedorInput{
+    background-color: white;
+    height: 35px;
+    width: 245px;
+    margin-top: 3px;
+    margin-left: 160px;
+}
+
+#btnBuscar{
+    background-color: transparent;
+    height: 47px;
+    width: 170px;
+    margin-top: 95px;
+    margin-left: 69px;
+    border-radius: 10px;
+}
+#btnBuscar:hover{
+    border-color: yellow;
+    border-style: double;
+    border-radius: 10px;
+}
+
+#contenedorNombre{
+    height: 47px;
+    width: 170px;
+    margin-top: -390px;
+    margin-left: 565px;
+}
+
+#contenedorTipo{
+    height: 47px;
+    width: 170px;
+    margin-top: -68px;
+    margin-left: 680px;
+}
+
+#nombre{
+    color: rgb(4, 228, 4);
+}
+
+#tipo{
+    color: rgb(4, 228, 4);
+}
+
+#contenedorEstadistica{
+    background-color: rgb(0, 162, 255);
+    border-radius: 20px;
+    height: 150px;
+    width: 170px;
+    margin-top: 50px;
+    margin-left: 570px;
+}
+
+#contenedorMovimientos{
+    height: 60px;
+    width: 300px;
+    margin-top: 67px;
+    margin-left: 575px;
+    border-color: green;
+}
+
+#movimientos{
+    background-color: transparent;
+    color: rgb(4, 228, 4);
+    width: 100%;
+    height: 100%;
+    resize: none;
+
+}
